@@ -1,1 +1,16 @@
-# Nhost config file
+[config]
+project_id = "wricheek chatbot"
+subdomain = "ap-south-1"
+region = "prwkmuftlhmanfredgmw"
+
+[hasura]
+version = "v2.32.4"
+
+[postgres]
+version = "15.5"
+
+[functions]
+version = "v0.3.0"
+
+[storage]
+version = "v0.3.0"

@@ -1,5 +1,17 @@
 {
   "name": "wricheek-chatbot",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "nhost dev",
+    "build": "nhost build",
+    "deploy": "nhost deploy"
+  },
+  "dependencies": {
+    "@nhost/nextjs": "^1.0.0",
+    "@nhost/react": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nhost/cli": "^1.0.0"
+  }
 }

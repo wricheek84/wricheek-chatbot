@@ -1,0 +1,2 @@
+-- Initial migration
+-- This file can be empty for now, but it establishes the migration structure
